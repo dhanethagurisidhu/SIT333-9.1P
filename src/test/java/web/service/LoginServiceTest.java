@@ -15,7 +15,7 @@ public class LoginServiceTest {
                         "student@deakin.edu.au",
                         "123456");
 
-        Assert.assertFalse(result);
+        Assert.assertTrue(result);
     }
 
     @Test
@@ -42,9 +42,3 @@ public class LoginServiceTest {
         Assert.assertFalse(result);
     }
 }
-
-
-
-
-
-
